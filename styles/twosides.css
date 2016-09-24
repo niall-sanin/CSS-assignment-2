@@ -10,7 +10,7 @@ h2, section > p {
   text-align: center;
 }
 h2 {
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 img {
@@ -23,13 +23,48 @@ img {
 #tiger {background: #B26219; /* cinnamon */}
 
 article {
-  background: #fff; /* white */
-  color: #000;
-  width: 600px;
+  color: #fff;
+  width: 30%;
+  float: right;
   padding: 20px 40px;
   box-sizing: border-box;
   margin: 50px auto;
+  clear: both;
+  margin-top: -55%;
+  margin-right: 5%;
+  overflow: auto;
 }
+
+ #cougar div {
+  float:left;
+  width: 45%;
+  padding: 20px;
+  margin:0 2% 1em;
+  box-sizing: border-box;
+  clear: both;
+  overflow: auto;
+}
+
+#lion div {
+ float:left;
+ width: 45%;
+ padding: 20px;
+ margin:0 2% 1em;
+ box-sizing: border-box;
+ clear: both;
+ overflow: auto;
+}
+
+#tiger div {
+ float:left;
+ width: 45%;
+ padding: 20px;
+ margin:0 2% 1em;
+ box-sizing: border-box;
+ clear: both;
+ overflow: auto;
+}
+
 header {
   background: #333;
   width: 100%;
@@ -39,12 +74,14 @@ header {
   top: 0px;
 }
 
-
 footer {
   text-align: center;
   width: 600px;
   padding: 1px 1px;
   margin: 50px auto;
+  overflow: auto;
+  float:none;
+  clear: both;
 }
 /* ----- suggested colors -----
    B26219 cinnamon
